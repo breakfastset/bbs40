@@ -1,0 +1,30 @@
+Toyota,Sienta,B,5
+Tesla,Y,A,3
+Alpha Romeo,4C spider,C,1
+Mercedes,GLC,C,3
+BYD,Dolphin,A,6
+
+
+-->
+"Toyota,Sienta,B,5"
+"Tesla,Y,A,3"
+"Alpha Romeo,4C spider,C,1"
+"Mercedes,GLC,C,3"
+"BYD,Dolphin,A,6"
+
+-->
+["Toyota"," Sienta", "B", "5"]
+
+-->
+["Toyota"," Sienta", "B", 5]   # [str, str, str, int]
+["Tesla", "Y", "A", 3]
+["Alpha Romeo", "4C spider", "C" , 1]
+["Mercedes", "GLC", "C", 3]
+["BYD", "Dolphin", "A", 6]
+
+--> List of lists (List of car records)
+[ ["Toyota"," Sienta", "B", 5],
+["Tesla", "Y", "A", 3],
+["Alpha Romeo", "4C spider", "C" , 1],
+["Mercedes", "GLC", "C", 3],
+["BYD", "Dolphin", "A", 6] ]
